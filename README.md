@@ -34,7 +34,7 @@
 
 7. ### Code review and iterative improvement
 
-8. ### Removal of console logs
+8. ### Removal of console logs & warning messages
 
 9. ### Building and testing of code on feature branch in testing environment.
 
