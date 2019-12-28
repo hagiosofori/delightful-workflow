@@ -19,7 +19,7 @@
 **user experience and user interface design plan (if applicable)**
 * ensure design is created for the various screen types to be supported.
 * design should comprise components, screens and workflows, with animations and transitions and exact color specs.
-* [Link to UI/UX workflow prototype](https://yourlinkhere.com)
+* [Insert Link to UI/UX workflow prototype here](https://yourlinkhere.com)
 
 **engineering and implementation plan**
 
@@ -61,7 +61,8 @@
 ```
 NB: don't forget; implementing the UI is part of the steps to be indicated here. details should be provided as well. pseudocode or even real code in codesandboxes are appreciated.
 
-3.5 ### iterative revisions and reviews until all issues are ironed out, and details are firmed and validated.
+
+3.5. ### iterative revisions and reviews until all issues are ironed out, and details are firmed and validated
 
 4. ### implementation of feature
 
