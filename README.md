@@ -14,55 +14,10 @@
 2. ### Description of desired feature in the created issue
 
 3. ### Creation of Feature branch and pull request, detailing Design & Implementation plans
-*template:*
+[**Link to Design & Implementation planning Template**](https://github.com/hagiosofori/delightful-workflow/blob/master/plan_template.md)
 
-**user experience and user interface design plan (if applicable)**
-* ensure design is created for the various screen types to be supported.
-* design should comprise components, screens and workflows, with animations and transitions and exact color specs.
-* [Insert Link to UI/UX workflow prototype here](https://yourlinkhere.com)
+*iterate over the design and implementation plan until satisfied*
 
-**engineering and implementation plan**
-
-*for each step*
-* briefly state the step, 
-* define any implementation details right under the step. 
-* details can be expressed in pseudocode, but the closer to the real implementation, the better.
-* when unsure about how to implement a particular feature, isolated experiments and demos can prove very helpful.
-* these codesandbox experiments and demos for individual steps can be linked right under the step.
-* and then the various tests that will be written for that particular implementation detail
-* eg:
-```
-**Feature: Implement Authentication/Login system**
-
-  ...
-
-5. Create sign in input validation function
-   - validate (string username, string password):
-        handle invalid input errors
-        sanitize the input
-        return sanitized input
-
-    - unit tests
-         - returns correct value for correct input
-         - handles invalid input well. 
-            - empty username or password ...  
-            - undefined, null, invalid non-alphanumeric characters, ...
-
- 
-... after all steps have been listed ...
-
-- integration tests ... 
-
-- end to tend tests
-      - clicking the button triggers the login function
-      - invalid input + login button clicked = error message showing
-      - valid input + login button clicked = taken to dashboard ...
- 
-```
-NB: don't forget; implementing the UI is part of the steps to be indicated here. details should be provided as well. pseudocode or even real code in codesandboxes are appreciated.
-
-
-3.5. ### iterative revisions and reviews until all issues are ironed out, and details are firmed and validated
 
 4. ### implementation of feature
 
