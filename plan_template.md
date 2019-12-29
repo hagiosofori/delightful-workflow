@@ -36,7 +36,26 @@
    ...
 
 ```
-NB: don't forget; implementing the UI is part of the steps to be indicated here. details should be provided as well. pseudocode or even real code in codesandboxes are appreciated.
+NB: don't forget; implementing the UI is part of the steps to be indicated here. details should be provided as well. 
+* eg: 
+```
+
+   ...
+   
+7. Create 3 column view, with button in the middle, right underneath
+   - <div class='container'>
+       <div class='row'>
+        <div class='col-4 sm-col-12'></div>
+        <div class='col-4 sm-col-12'></div>
+        <div class='col-4 sm-col-12'></div>
+       </div>
+       <button class='center'>Update</button>
+     </div>
+     
+   ...
+   
+```
+pseudocode or even real code in codesandboxes are ideal.
 
 
  *after all the steps have been listed*
