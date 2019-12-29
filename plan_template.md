@@ -1,7 +1,13 @@
+* *[insert link to issue description here](https://linktoissue.com)*
+
+* insert the hash number of the issue here. eg: `#1234`
+---
+
 **user experience and user interface design plan (if applicable)**
 * ensure design is created for the various screen types to be supported.
 * [Link to UI/UX workflow prototype](https://yourlinkhere.com)
 
+---
 **engineering and implementation plan**
 
 *for each step*
