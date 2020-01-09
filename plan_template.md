@@ -23,6 +23,10 @@ _for each step_
   - when unsure about how to implement a particular feature, isolated experiments and demos can prove very helpful.
   - these codesandbox experiments and demos for individual steps can be linked right under the step.
 - then define the various tests that will be written for that particular implementation detail
+  - consider the following situations when testing
+    - what are all the possible inputs and outputs this code can produce? test that this is the case. ie: it does what it's supposed to do, under all expected cases & edge cases.
+    - performance testing
+    - security testing
 - eg:
 
 ```
