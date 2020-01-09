@@ -77,3 +77,6 @@ _after all the steps have been listed_
 - integration tests
 
 - end-to-end tests
+  - security
+  - stress/performance
+  - functionality
