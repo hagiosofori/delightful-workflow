@@ -10,6 +10,7 @@ eg:
 
 - [Link to UI/UX workflow prototype](https://yourlinkhere.com)
   (ensure design is created for the various screen types to be supported)
+  - would be perfect if design files were stored in the same repo as code.
 
 ---
 
