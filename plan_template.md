@@ -23,9 +23,10 @@ _for each step_
   - details can be expressed in pseudocode, but the closer to the real implementation, the better.
   - when unsure about how to implement a particular feature, isolated experiments and demos can prove very helpful.
   - these codesandbox experiments and demos for individual steps can be linked right under the step.
+  - if isolating the experiment will prove difficult / incomplete, implement the experiment in a new branch, and push as part of the PR.
 - then define the various tests that will be written for that particular implementation detail
   - consider the following situations when testing
-    - what are all the possible inputs and outputs this code can produce? test that this is the case. ie: it does what it's supposed to do, under all expected cases & edge cases.
+    - what are all the possible inputs and outputs this code can handle/produce? test that this is the case. ie: it does what it's supposed to do, under all expected cases & edge cases.
     - performance testing
     - security testing
 - eg:
@@ -49,35 +50,12 @@ _for each step_
 
 ```
 
-NB: implementing the UI is part of the steps to be indicated here. details should be provided as well.
-
-- eg:
-
-```
-
-   ...
-
-7. Create 3 column view, with button in the middle, right underneath
-   - <div class='container'>
-       <div class='row'>
-        <div class='col-4 sm-col-12'></div>
-        <div class='col-4 sm-col-12'></div>
-        <div class='col-4 sm-col-12'></div>
-       </div>
-       <button class='center'>Update</button>
-     </div>
-
-   ...
-
-```
-
-pseudocode or even real code in codesandboxes are ideal.
 
 _after all the steps have been listed_
 
-- integration tests
+- list integration tests
 
-- end-to-end tests
+- list end-to-end tests
   - security
   - stress/performance
   - functionality
